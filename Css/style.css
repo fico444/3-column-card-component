@@ -71,7 +71,7 @@ img{
 }
 
 /*Headers*/
-h1, h2, h3{
+h2{
     font-family: var(--hFont);
     font-size: 2.5rem;
     margin: 1.8rem 0 0 3rem;
@@ -86,7 +86,8 @@ p{
 }
 
 /*button*/
-button{
+section a{
+    display: block;
     width: 150px;
     height: 49px;
     border-radius: 30px;
@@ -96,6 +97,9 @@ button{
     margin: 1.8rem 3rem 0 3rem;
     color: var(--dCyan);
     border: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3rem;
 }
 .btn1{
     color: var(--bOrange);
@@ -103,7 +107,7 @@ button{
 .btn3{
     color: var(--veryDcyan);
 }
-button:hover{
+section a:hover{
     cursor: pointer;
     background-color: transparent;
     color: var(--pColor);
@@ -160,7 +164,7 @@ footer{
     p{
         margin: 1.4rem 3rem 0 3rem;
     }
-    button{
+    section a{
         margin: 5.4rem 3rem 0 2.8rem;
     }
 }
